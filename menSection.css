@@ -1,0 +1,198 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: #09090b;
+}
+
+.hero a:hover{
+	font-family: "Helvetica";
+}
+
+.home-container, .footer-container{
+	background-color: #e9e2d5;
+	color: #09090b;
+	font-family: "Helvetica Regular";
+	font-size: 10px;
+	font-weight: 200;
+	line-height: 12px;
+	text-transform: uppercase;
+}
+
+.home-content{
+	width: 100%;
+}
+
+.hero{
+	min-height: 100vh;
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+.brand-name a, .estavo{
+	font-size: 6vw;
+	line-height: 5.5vw;
+	font-family: "Monument Extended Bold";
+	font-weight: 700;
+}
+
+.brand-name a:hover{
+	font-family: "Monument Extended Bold";
+}
+
+.black{
+	width: 10px;
+	height: 10px;
+	background-color: #09090b;
+	margin-right: 6px;
+}
+
+.front-sec{
+	height: inherit;
+}
+
+.front-img{
+	height: 75vh;
+	width: 100%;
+}
+
+.front-img img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.search-icon a i{
+	cursor: pointer;
+}
+
+.search-section{
+	display: none;
+}
+
+.myOffcanvas{
+	background-color: #e9e2d5;
+	font-family: "Helvetica Regular";
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+.search-input input{
+	background-color: #e9e2d5;
+	font-size: 13px;
+	border-bottom: 1px solid #646869;
+	border-radius: 0px;
+	font-family: "Helvetica";
+	height: 30px;
+	color: #d4d4d4;
+}
+
+.suggest-head, .cart-status{
+	font-size: 15px;
+	font-family: "Helvetica";
+}
+
+.suggestion-item{
+	text-decoration: underline;
+}
+
+.nav-sec{
+	width: 100%;
+}
+
+.front-sec-img-container{
+	width: 100%;
+	height: 80vh;
+}
+
+.front-img1{
+	padding: 0px 3px;
+}
+
+.front-sec-img{
+	width: 100%;
+	height: 85%;
+	background-color: #09090b;
+}
+
+.front-sec-img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.footer-container{
+	line-height: 13px;
+}
+
+.footer a:hover{
+	text-decoration: underline;
+}
+
+
+.nav1 ul li{
+	list-style: none;
+}
+
+.shipping div, .language div{
+	gap: 10px;
+	cursor: pointer;
+}
+
+.form-input input{
+	height: 30px;
+	border: 1px solid gray;
+}
+
+.subscribe-btn{
+	font-family: "Helvetica Regular";
+	background-color: #09090b;
+	font-size: 13px;
+	color: #e9e2d5;
+}
+
+.subscribe-btn:hover{
+	background-color: transparent;
+	color: #09090b;
+}
+
+.shop-btn{
+	font-family: "Helvetica Regular";
+	background-color: #09090b;
+	font-size: 12px;
+	color: #e9e2d5;
+}
+
+.shop-btn:hover{
+	font-family: "Helvetica Regular";
+	background-color: transparent;
+	color: #09090b;
+}
+
+.rights{
+	width: 55%;
+}
+
+.copy{
+	font-size: 9px;
+}
+
+
+@media screen and (min-width: 360px){
+	.front-sec-desc .first{
+		width: 50%;
+	}
+}
+
+
+@media screen and (min-width: 394px){
+	.brand-name a, .estavo{
+		font-size: 22px;
+		line-height: 23px;
+	}
+}
+
