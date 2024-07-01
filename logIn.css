@@ -148,6 +148,7 @@ a{
 .form-input input{
 	height: 30px;
 	border: 1px solid gray;
+	background-color: #faf7f1;
 }
 
 .subscribe-btn{
